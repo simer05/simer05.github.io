@@ -25,6 +25,7 @@ a{color:#1F47C8}a:hover{color:#132F8A}
 .btn{display:inline-block;margin-top:24px;padding:11px 22px;border-radius:6px;background:#14171C;color:#FBFBF9;text-decoration:none;font-size:15px;font-weight:500}
 .btn:hover{background:#1F47C8;color:#FBFBF9}
 .prose a{text-decoration-thickness:1px;text-underline-offset:3px}
+h3 a{text-decoration:none}h3 a:hover{text-decoration:underline;text-underline-offset:3px}
 .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
 @media (max-width:1100px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .row{display:grid;grid-template-columns:140px minmax(0,1fr);gap:24px;padding:22px 0;border-top:1px solid #E4E5E2}
@@ -67,7 +68,7 @@ a{color:#1F47C8}a:hover{color:#132F8A}
 <div class="row">
 <div class="mono" style="padding-top: 4px">First author</div>
 <div>
-<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://sentic.net/senticlens.pdf" style="color: #14171C">SenticLens: A Production Sentiment-Analysis Framework with Behavioral Auditing of LLM Affective Coherence</a></h3>
+<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://sentic.net/senticlens.pdf">SenticLens: A Production Sentiment-Analysis Framework with Behavioral Auditing of LLM Affective Coherence</a></h3>
 <p style="margin: 0 0 10px; font-size: 15px; color: #3D424A"><b style="font-weight: 600; color: #14171C">Simerjit Kaur Nath</b>, Erik Cambria, Haibo Pen · SENTIRE Workshop at IEEE ICDM 2026 (ICDM is ranked CORE A*) · Accepted, to appear in the Proceedings of the 2026 IEEE International Conference on Data Mining Workshops (ICDMW)</p>
 <p style="margin: 0; font-size: 16px">Designed a paired benchmark: a 4,000-review corpus across 4 brands, matching real reviews with synthetic reviews of known sentiment. Across 24,000 audited records and 3 open-weight LLMs, models contradicted themselves ~6× as often on real reviews as on clean data (2.32% vs 0.37%).</p>
 <p class="mono" style="margin: 10px 0 0; font-size: 13px"><a href="https://sentic.net/senticlens.pdf">Paper (PDF)</a> · <a href="https://youtu.be/WWc0BVTbDmk">Sentic Labcast (video)</a></p>
@@ -78,7 +79,7 @@ a{color:#1F47C8}a:hover{color:#132F8A}
 <div class="row">
 <div class="mono" style="padding-top: 4px">Shipped</div>
 <div>
-<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://www.kenza.ae" style="color: #14171C">Kenza Living: community platform, live on iOS, Android and web</a></h3>
+<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://www.kenza.ae">Kenza Living: community platform, live on iOS, Android and web</a></h3>
 <p style="margin: 0; font-size: 16px">Led the end-to-end build of a bilingual English/Arabic platform: React Native app, Node.js and PostgreSQL on AWS, and an LLM assistant that turns residents' messages into bookings and service tickets, with server-side guardrails for both security (authentication, role checks, rate limits) and correct bookings (server-sourced details, explicit confirmation).</p>
 <p class="mono" style="margin: 10px 0 0; font-size: 13px"><a href="https://apps.apple.com/app/kenza-living/id6781218644">App Store</a> · <a href="https://play.google.com/store/apps/details?id=ae.kenza.living">Google Play</a> · <a href="https://www.kenza.ae">Website</a></p>
 </div>
@@ -86,14 +87,14 @@ a{color:#1F47C8}a:hover{color:#132F8A}
 <div class="row">
 <div class="mono" style="padding-top: 4px">Open source</div>
 <div>
-<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://github.com/savannahfeder/agentbox" style="color: #14171C">Agentbox: open-source contributor</a></h3>
+<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://github.com/savannahfeder/agentbox">Agentbox: open-source contributor</a></h3>
 <p style="margin: 0; font-size: 16px">A desktop app that runs many Claude Code and Codex agents in parallel, each in its own git worktree. First contributor to bring Windows support: traced why agents could not start on Windows, then fixed how Claude Code and Codex launch, how tool servers and per-task folders work, and the in-app terminal.</p>
 </div>
 </div>
 <div class="row">
 <div class="mono" style="padding-top: 4px">Evaluation</div>
 <div>
-<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://github.com/simer05/rag-grounding-audit" style="color: #14171C">RAG grounding audit</a></h3>
+<h3 style="margin: 0 0 6px; font-size: 19px; line-height: 1.4; font-weight: 600"><a href="https://github.com/simer05/rag-grounding-audit">RAG grounding audit</a></h3>
 <p style="margin: 0; font-size: 16px">Open-source test of whether RAG chatbots really answer from their documents (3 LLMs, 500 questions). Reordering the same documents flipped up to 1 in 7 answers.</p>
 </div>
 </div>
@@ -134,8 +135,8 @@ a{color:#1F47C8}a:hover{color:#132F8A}
 </div>
 
 <h2 class="mono" style="margin: 56px 0 0; padding-bottom: 14px">Experience</h2>
-<div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Research</div><div><b style="font-weight: 600">Graduate Researcher</b>, <a href="https://sentic.net/" style="color: inherit">SenticNet Lab</a>, NTU <span style="color: #5A606A">· supervised by Prof. Erik Cambria</span></div></div>
-<div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Product</div><div><b style="font-weight: 600">Technical Project Lead</b> (part-time), <a href="https://www.kenza.ae" style="color: inherit">Kenza AI</a> <span style="color: #5A606A">· Kenza Living</span></div></div>
+<div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Research</div><div><b style="font-weight: 600">Graduate Researcher</b>, <a href="https://sentic.net/">SenticNet Lab</a>, NTU <span style="color: #5A606A">· supervised by Prof. Erik Cambria</span></div></div>
+<div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Product</div><div><b style="font-weight: 600">Technical Project Lead</b> (part-time), <a href="https://www.kenza.ae">Kenza AI</a> <span style="color: #5A606A">· Kenza Living</span></div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Internship</div><div><b style="font-weight: 600">Research Intern</b>, A*STAR Institute of Advanced Intelligence and Computing (IAIC) <span style="color: #5A606A">· multimodal climate modelling</span></div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Part-time</div><div><b style="font-weight: 600">Graduate Student Research Assistant</b>, NTU School of Social Sciences</div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Industry</div><div><b style="font-weight: 600">Research Associate to Team Lead</b>, NielsenIQ, Mumbai <span style="color: #5A606A">· led an 11-person team</span></div></div>
@@ -144,11 +145,12 @@ a{color:#1F47C8}a:hover{color:#132F8A}
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Master's</div><div><b style="font-weight: 600">MSc Artificial Intelligence</b>, Nanyang Technological University <span style="color: #5A606A">· graduating January 2027</span></div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Bachelor's</div><div><b style="font-weight: 600">BSc Computer Science</b>, University of Mumbai <span style="color: #5A606A">· Silver Medalist</span></div></div>
 
-<h2 class="mono" style="margin: 56px 0 0; padding-bottom: 14px">Honours</h2>
+<h2 class="mono" style="margin: 56px 0 0; padding-bottom: 14px">Honours and leadership</h2>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">Sea x OpenAI</div><div>Regional Finalist, Codex Hackathon</div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">American Express</div><div>Top 6 Finalist, GenAI Hackathon</div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">TE x AWS</div><div>2nd Place, TE Connectivity x AWS Hackathon</div></div>
 <div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">TEDxNTU</div><div>Vice Chair, Operations and Logistics</div></div>
+<div class="row" style="padding: 14px 0"><div class="mono" style="padding-top: 3px">NTU CommCube</div><div>Communication Coach <span style="color: #5A606A">· 95.6% session satisfaction</span></div></div>
 
 <h2 class="mono" style="margin: 56px 0 0; padding-bottom: 14px">Contact</h2>
 <div class="row" style="padding: 18px 0"><div class="mono" style="padding-top: 3px">Email</div><div>Always happy to chat over coffee, in Singapore or online: AI products, research, a problem you're stuck on, or anything else on your mind. <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#105;&#109;&#101;&#114;&#110;&#97;&#116;&#104;&#48;&#53;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Send me an email</a>.</div></div>
